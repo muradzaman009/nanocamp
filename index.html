@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+    <style>
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.area{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.title h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.box{
+    border: 3px solid #2980b9;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1000px;
+    align-content:center; 
+    /*flex-start/flex-end/stretch/center/space-around/space-evenly/*/
+    
+    }
+
+.single-box{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 200px;
+    
+    
+}
+
+.single-box h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.box1 {
+    order: 4;
+}
+
+.box2 {
+    order: 5;
+}
+
+.box3 {
+    order: 6;
+}
+
+.box4 {
+    order: 7;
+}
+
+.box5 {
+    order: 2;
+}
+
+.box6 {
+    order: 4;
+}
+
+.box7 {
+    order: 1;
+}
+
+.box8 {
+    order: 3;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="area">  <!--area start-->
+        
+        <div class="title">
+            <h2>Order</h2>
+        </div>
+
+        <div class="box">  <!--Box start-->
+            <div class="single-box box1">
+                <h4>1.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+
+
+
+            <div class="single-box box2">
+                <h4>2.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+
+
+
+            <div class="single-box box3">
+                <h4>3.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+
+
+
+
+            <div class="single-box box4">
+                <h4>4.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+            
+             <div class="single-box box5">
+                <h4>5.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+            
+             <div class="single-box box6">
+                <h4>6.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+            
+             <div class="single-box box7">
+                <h4>7.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+            
+             <div class="single-box box8">
+                <h4>8.Simple Tittle</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero doloremque minima amet, commodi dolores. Tempora nihil quo eligendi at cumque dicta magnisequi atque nesciunt eum numquam neque, quae quis at cumque dicta magnisequi atque nesciunt ipsum dolor sit </p>
+            </div>
+        </div>    <!--Box End-->
+    </div>    <!--area end-->
+</body>
+
+</html>
